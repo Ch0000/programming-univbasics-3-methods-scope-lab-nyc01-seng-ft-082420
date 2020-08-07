@@ -1,9 +1,3 @@
-def all_phrases
-  return mario
-  return toadstool
-  return link
-end
-
 def mario
   phrase = "It's-a me, Mario!"
   puts phrase
@@ -21,6 +15,14 @@ def link
   puts opening
 end
 link
+
+def all_phrases
+  puts mario
+  puts toadstool
+  toadstool
+  puts link
+  link
+end
 
 all_phrases
     
