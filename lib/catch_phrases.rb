@@ -16,7 +16,7 @@ def link
 end
 link(opening)
 
-def all_phrases 
+def all_phrases
   mario
   toadstool
   link
