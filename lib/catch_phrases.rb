@@ -17,9 +17,8 @@ end
 link
 
 def all_phrases
-  puts mario
-  toadstool
-  link
+  mario.chomp
+  toadstool.chomp
+  link.chomp
 end
-
 all_phrases
